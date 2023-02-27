@@ -172,14 +172,17 @@ export default function Home() {
         <h2>Fale Comigo</h2>
         <div className="contatos-text">
           <div className="icons-contato">
-            <span>
+            <a
+              href="https://wa.me/5553984473069?text=Ol%C3%A1%2C+Tudo+bem%3F+Gostaria+de+conversar+sobre+seus+servi%C3%A7os%21"
+              target="_blank"
+            >
               <img className="image-contato" src={Whats} />
               <h5 className="text-contato">(53) 98447-3069</h5>
-            </span>
-            <span>
+            </a>
+            <a href="mailto:Raff1zpinheiro@gmail.com">
               <img className="image-contato" src={Email} />
               <h5 className="text-contato">Raff1zpinheiro@gmail.com</h5>
-            </span>
+            </a>
           </div>
           <div className="icons-contato">
             <a href="https://github.com/RafaMPinheiro" target="_blank">
